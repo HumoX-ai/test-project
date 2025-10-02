@@ -10,6 +10,8 @@ Shadcn UI komponentlaridan foydalanish orqali kodimni yanada tushunarli va oson 
 
 RTK Query dan foydalanish orqali API fetching jarayonini osonlashtirdim va caching muammosini hal qildim. Bu an'anaviy Redux slice laridan voz kechishimga imkon berdi, chunki RTK Query avtomatik caching va state boshqaruvini ta'minlaydi.
 
+.env dan foyalanish orqali esa muhim APIlarni himoya qildim, bu production muhitida xavfsizlikni ta'minlaydi.
+
 Nihoyat, lazy loading va code splitting orqali ilovani optimallashtirdim, bu foydalanuvchi tajribasini yaxshilaydi va yuklash vaqtini kamaytiradi.
 
 ## Xususiyatlar (Features)

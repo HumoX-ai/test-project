@@ -166,23 +166,23 @@ export function ProductFilters({
               </div>
             </div>
           </div>
-          <DrawerFooter>
-            <div className="flex gap-3">
+            <DrawerFooter>
+            <div className="flex flex-col gap-3 sm:flex-row">
               <DrawerClose asChild>
-                <Button onClick={applyFilters} className="flex-1">
-                  Filtrlarni qo'llash
-                </Button>
+              <Button onClick={applyFilters} className="flex-1">
+                Filtrlarni qo'llash
+              </Button>
               </DrawerClose>
               <Button
-                variant="outline"
-                onClick={resetFilters}
-                className="flex-1"
+              variant="outline"
+              onClick={resetFilters}
+              className="flex-1"
               >
-                <X className="mr-2 h-4 w-4" />
-                Qayta tiklash
+              <X className="mr-2 h-4 w-4" />
+              Qayta tiklash
               </Button>
             </div>
-          </DrawerFooter>
+            </DrawerFooter>
         </DrawerContent>
       </Drawer>
     </div>

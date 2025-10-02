@@ -11,7 +11,7 @@ interface ProductCardProps {
 
 export function ProductCard({ product, onEdit, onDelete }: ProductCardProps) {
   return (
-    <Card className="overflow-hidden flex flex-col h-full">
+    <Card className="overflow-hidden flex flex-col h-full py-0">
       <div className="aspect-square overflow-hidden bg-muted">
         <img
           src={product.images[0] || "https://placehold.co/600x400"}

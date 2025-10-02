@@ -145,7 +145,7 @@ export function ProjectsPage() {
                   <Loader2 className="h-8 w-8 animate-spin text-muted-foreground" />
                 </div>
               )}
-              <div className="grid gap-6 grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+              <div className="grid gap-4 lg:gap-6 grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                 {products.map((product) => (
                   <ProductCard
                     key={product.id}
